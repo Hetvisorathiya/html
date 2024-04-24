@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css" type="text/css" />
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300italic,400);
+
+h2{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.item-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    .title {
+      font-family: 'Playfair Display', serif;
+      flex-grow: 1;
+      font-size: 18px;
+      // flex: 2;
+    }
+    .space {
+      flex-basis: 1;
+      overflow: hidden;
+      flex: 20;
+      flex-shrink: 4;
+      align-self: felx-end;
+      text-align: right;
+      margin-right: 10px;
+      margin-top: 16px;
+      border-bottom: 1px dotted black;
+      font-size: 0px;
+    }
+    .price {
+      font-size: 18px;
+      font-family: 'Playfair Display', serif;
+      min-width: 60px;
+      align-self: felx-end;
+    }
+  }
+  .description {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 80%;
+  }
+
+    </style>
+    <title>Navbar</title>
+</head>
+<body>
+    <nav class="navbar" style="position: relative;">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+              <li><a href="/home.html">Home</a></li>
+              <li><a href="/nail.html">Nail</a></li>
+              <li><a href="/List.html">Menu</a></li>
+              <li><a href="/gallary.html">Gallery</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+              <li><a href="/social.html">AboutUS</a></li>
+          </ul>
+            <h1 class="logo"><img src="/images/logo.png" width="50"></h1>
+        </div>
+    </nav>
+    <div class="block1">
+        <div>
+            <img src="/images/1.png" alt="Image">
+          </div>
+        <div >
+            <h2>NAIL STUDIO</h2>
+
+            <div class="item-wrapper">
+              <div class="item">
+                <div class="title">1. Manicure</div>
+                <div class="space"></div>
+                <div class="price">$500</div>
+              </div>
+              <!-- <p class="description">Thin sliced fresh salmon topped with Thai style spicy sauce and fresh garlic.</p> -->
+            </div>
+            
+              <div class="item-wrapper">
+              <div class="item">
+                <div class="title">2. Classic Pedicure</div>
+                <div class="space"></div>
+                <div class="price">$500</div>
+              </div>
+            </div>
+            
+              <div class="item-wrapper">
+              <div class="item">
+                <div class="title">3. Deluxe Padicure</div>
+                <div class="space"></div>
+                <div class="price">$700</div>
+              </div>
+            </div>
+            
+              <div class="item-wrapper">
+              <div class="item">
+                <div class="title">4. Gel Nails-Full Set</div>
+                <div class="space"></div>
+                <div class="price">$1000</div>
+              </div>
+            </div>
+            
+              <div class="item-wrapper">
+              <div class="item">
+                <div class="title">5. Gel Nails-Full In</div>
+                <div class="space"></div>
+                <div class="price">$1000</div>
+              </div>
+            </div>
+            
+              <div class="item-wrapper">
+              <div class="item">
+                <div class="title">6. Pink & White Full Set</div>
+                <div class="space"></div>
+                <div class="price">$1200</div>
+              </div>
+            </div>
+            
+             
+        </div>
+      </div>
+</body>
+</html>
